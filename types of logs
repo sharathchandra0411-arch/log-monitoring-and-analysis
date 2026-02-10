@@ -1,0 +1,21 @@
+Computer & Technology Logs
+
+Used to record events and activity in systems.
+
+System logs – OS-level events (boot, shutdown, errors)
+
+Application logs – events inside a specific app
+
+Server logs – web server requests, responses, errors
+
+Error logs – failures, crashes, exceptions
+
+Access logs – who accessed what and when
+
+Security logs / audit logs – logins, permission changes, threats
+
+Transaction logs – database changes and operations
+
+Debug logs – detailed info for developers
+
+Event logs – structured records of system events
