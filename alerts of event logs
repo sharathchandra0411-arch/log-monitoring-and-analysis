@@ -1,0 +1,51 @@
+An alert is triggered when log data matches a rule, such as:
+
+A specific error code appears
+
+Too many errors in a time window
+
+A critical service stops
+
+Security-related events (failed logins, privilege changes)
+
+3. Common alert conditions
+
+Threshold-based:
+“More than 5 errors in 1 minute”
+
+Pattern-based:
+“Log message contains ‘OutOfMemoryError’”
+
+Anomaly-based:
+“Error rate is higher than normal”
+
+Absence-based:
+“No heartbeat log for 10 minutes”
+
+4. Alert delivery
+Alerts are usually sent via:
+
+Email
+
+Slack / Teams
+
+PagerDuty / Opsgenie
+
+SMS / push notifications
+
+Dashboards
+
+5. Popular tools
+Depending on your stack:
+
+ELK / OpenSearch (Elasticsearch + alerting rules)
+
+Splunk (saved searches + alerts)
+
+Prometheus + Alertmanager (for metrics derived from logs)
+
+AWS CloudWatch Alarms
+
+Azure Monitor Alerts
+
+Datadog / New Relic
