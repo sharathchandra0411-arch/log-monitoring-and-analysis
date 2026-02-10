@@ -1,0 +1,153 @@
+SIEM = Security Information and Event Management
+
+It’s a system that:
+
+Collects logs from many sources
+
+Correlates events to spot suspicious behavior
+
+Alerts security teams in real time
+
+Stores logs for investigations and compliance
+
+Think of it as a central brain for security logs.
+
+Why SIEM Matters
+
+Without SIEM:
+
+Logs are scattered
+
+Attacks go unnoticed
+
+Investigations take forever
+
+With SIEM:
+
+Faster threat detection
+
+Central visibility
+
+Compliance reporting (PCI-DSS, HIPAA, ISO, etc.)
+
+Core SIEM Components
+1. Log Collection
+
+SIEM pulls data from:
+
+Firewalls
+
+IDS/IPS
+
+Servers (Windows/Linux)
+
+Endpoints (EDR)
+
+Applications
+
+Cloud services (AWS, Azure, GCP)
+
+Methods:
+
+Syslog
+
+Agents
+
+APIs
+
+2. Log Normalization
+
+Different logs → one common format
+
+Example:
+
+Source IP, Destination IP, User, Event Type, Timestamp
+
+
+This makes correlation possible.
+
+3. Correlation & Detection
+
+SIEM connects events to detect threats.
+
+Examples:
+
+Multiple failed logins → successful login (brute force)
+
+User logs in from two countries in 5 minutes
+
+Malware alert + outbound traffic spike
+
+These are called correlation rules or use cases.
+
+4. Alerts & Dashboards
+
+Real-time alerts for high-risk activity
+
+Dashboards for SOC visibility
+
+Severity levels (Low / Medium / High / Critical)
+
+5. Investigation & Forensics
+
+Search historical logs
+
+Reconstruct timelines
+
+Support incident response
+
+6. Reporting & Compliance
+
+Pre-built compliance reports
+
+Audit trails
+
+Log retention (90 days, 1 year, etc.)
+
+Common SIEM Use Cases
+
+Brute-force attacks
+
+Privilege escalation
+
+Insider threats
+
+Malware infections
+
+Data exfiltration
+
+Account compromise
+
+Popular SIEM Tools
+
+Splunk
+
+IBM QRadar
+
+Microsoft Sentinel
+
+ArcSight
+
+Elastic SIEM
+
+LogRhythm
+
+SIEM vs SOAR (Quick Note)
+
+SIEM → Detects & alerts
+
+SOAR → Automates response (block IP, disable user, etc.)
+
+Many modern SIEMs now include SOAR features.
+
+SIEM Challenges (Real Talk)
+
+Too many false positives
+
+Expensive licensing
+
+Requires tuning
+
+Needs skilled analysts
+
+Good SIEM = good rules + good tuning + good people
